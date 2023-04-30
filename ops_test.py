@@ -1,15 +1,14 @@
 
-from calculation import calculate
-
+import calculation
 
 def test_add():
-    assert calculate.add(2,3) == 5
+    assert calculation.add(2,3) == 5
 
 def test_subtract():    
-    assert calculate.subtract(2, 3) == -1
+    assert calculation.subtract(2, 3) == -1
 
 def test_multiply():
-    assert calculate.multiply(2, 3) == 6
+    assert calculation.multiply(2, 3) == 6
 
 def test_divide():
-    assert calculate.divide(10,5) == 2
+    assert calculation.divide(10,5) == 2
